@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title> Membuat Buku Tamu </title>
+			</head>
+				<body>
+				<center><font face="verdana" size=3><strong>Formulir Buku Tamu</strong></font> <div style="color: rgb(51, 102, 255);font-family:ramadhanar;" ><head>
+					<form action="proses_bukutamu.php" method="post">
+					<font face="ramadhanar" size=2>
+					<table>
+						<tr>
+							<td>Masukan NIM</td>
+							<td><input type="text" name="Msk_Nim"></td></tr>
+						<tr>
+							<td>Nama Lengkap</td>
+							<td><input type="text" name="nama_lkp"></td></tr>
+						<tr>
+							<td>Sapaan</td>
+							<td><select name="sapaan">
+								<option value=0 selected> Sapaan
+								<option value="Bapak"> Bapak
+								<option value="Ibu"> Ibu
+								<option value="Sdr"> Sdr.
+								<option value="Sdri"> Sdri.
+								<option value="Mas"> Mas
+								<option value="Mbak"> Mbak
+								<option value="Akang"> Akang
+								<option value="Teteh"> Teteh
+								<option value="Om"> Om
+								<option value="Tante">Tante</td></tr>
+						<tr>
+							<td>Email</td>
+							<td><input type="text" name="email"></td></tr>
+						<tr>
+							<td>Nomor Telepon</td>
+							<td><input type="text" name="Nomor Telephone"></td></tr>
+						<tr>
+							<td>Pesan dan kesan</td>
+							<td><textarea name="pesan" rows=8 cols=35></textarea></td></tr>
+						<tr>
+
+							<style> 
+								a, button,input[type=submit],input[type=reset] {
+								    font-family: sans-serif;
+								    font-size: 15px;
+								    background: #006600;
+								    color: white;
+								    border: white 3px solid;
+								    border-radius: 5px;
+								    padding: 12px 20px;
+								    margin-top: 10px;
+								}
+								a {text-decoration: none;}
+								a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+								    opacity:0.5;}
+								</style>
+
+							<td colspan=2 align="center"><a href="https://api.whatsapp.com/send?phone=6289533058259&text=Hi"> Submit <calss="btn mr-2>
+						</a>
+					</tr>
+				</table>
+			</style>
+		</form>
+	</body>
+</html>
